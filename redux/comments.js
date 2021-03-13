@@ -14,6 +14,6 @@ export const comments = (state = { errMess: null, comments: []}, action) => {
                 return {...state, comments: state.comments.concat(comment)};
            
         default:
-        return state;
+          return state;
     }
 };
